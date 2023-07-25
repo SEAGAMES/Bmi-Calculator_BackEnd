@@ -6,11 +6,15 @@ const taskSchema = new Schema(
   {
     height: {
       type: Number,
-      required: 'task1 cannot be blank'
+      required: 'height cannot be blank'
     },
     weight: {
       type: Number,
-      required: 'task2  cannot be blank'
+      required: 'weight  cannot be blank'
+    },
+    bmi: {
+      type: Number,
+      required: 'bmi  cannot be blank'
     }
   },
   { collection: 'task' }
